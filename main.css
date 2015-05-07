@@ -1,0 +1,90 @@
+@import url(lib/Cesium/Widgets/widgets.css);
+
+html, body, #map-canvas { 
+
+	height: 100%; 
+	margin: 0; 
+	padding: 0;
+
+	min-width: 550px;
+	min-height: 650px;
+
+	margin: 0;
+	overflow: hidden;
+}
+
+#sat-table a {
+	color:white;
+}
+#sat-table {
+	text-align: right;
+}
+#cesiumContainer {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+#controlTitle
+{
+	cursor: pointer;
+}
+
+.cesium-viewer-animationContainer, .cesium-viewer-timelineContainer
+{
+	/*display: none;*/
+}
+
+div.map-window {
+	position: absolute;
+	z-index: 100;
+	color: white;
+	right:0;
+	padding: 10px; 
+	overflow: hidden;
+
+   /* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+div.map-window.right {
+	right:0;
+}
+div.map-window.left {
+	left: 0px;
+	width: 40%;
+}
+div.map-window.bottom {
+	bottom: 0;
+}
+div.map-window.flow {
+	display: none;
+}
+
+div.map-window input {
+	float:right;
+	width:48%;
+}
+div.map-window select  {
+	float:right;
+	width:50%;
+}
+div.map-window h2 {
+	margin: 0;
+}
+div.map-window p  {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width:100%;
+}

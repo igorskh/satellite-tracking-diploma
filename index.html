@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>SatTrack (Matreshka.JS ver)</title>
+		<meta charset="UTF-8"/>
+
+		<link rel="stylesheet" type="text/css" href="main.css">
+
+		<meta name="viewport" content="width=device-width">
+		<meta name="viewport" content="height=device-height">
+	</head>
+
+	<body>
+		<div class="map-window left">
+			<h2 id="controlTitle">Управление</h2>
+			<div id="controls">
+				<section>
+					
+					<p>
+						TLE-файл: 
+						<select id="file">
+							<option value="0" selected>Выберите файл</option>
+							<option value="tle/new.txt">new.txt</option>
+						</select>
+					</p>
+					<p>
+						Спутник: 
+						<select id="sats">
+							<option value="0" selected>Выберите спутник</option>
+						</select>
+					</p>
+					<!--<div id="sat">
+						<p>Спутник: <span id="satNameShow"></span></p>
+						<p>Широта: <span id="satLat"></span> °</p>
+						<p>Долгота: <span id="satLng"></span> °</p>
+						<p>Высота: <span id="satAlt"></span> км</p>
+					</div>-->	
+				</section>
+
+				<section>		
+					<div id="sat">
+						<table>
+							<thead>
+								<th>Спутник</th>
+								<th>Широта</th>
+								<th>Долгота</th>
+								<th>Высота</th>
+								<th>Азимут</th>
+								<th>Угол места</th>
+								<th>Действие</th>
+							</thead>
+							<tbody id="sat-table">
+								
+							</tbody>
+						</table>
+					</div>
+					<div id="obs">
+						<p>Широта Места на карте: <span id="obsLat"></span> °</p>
+						<p>Долгота Места на карте: <span id="obsLng"></span> °</p>
+						<!--<p>Азимут: <span id="obsAz"></span> °</p>
+						<p>Угол места: <span id="obsEl"></span> °</p>-->	
+					</div>
+				</section>
+
+				<section>
+					<button onclick="return false;" id="chooseMarker">Точка наблюдения</button>	
+					<button onclick="return false;" id="showSat">Показать спутник</button>	
+					<button onclick="return false;" id="showMarker">Показать точку наблюдения</button>
+
+					<div id="choosePosWindow" style="display:none">
+						<h2>Точка наблюдения</h2>
+						<p>Широта: <input id="window-obs-lat" type="text"/></p>
+						<p>Долгота: <input id="window-obs-lng" type="text"/></p>
+						<button id="choosePosWindowBtn">Установить</button>				
+					</div>
+				</section>
+			</div>
+		</div>	
+
+		<div id="cesiumContainer"></div>
+
+
+		<!--Используемые внешние библиотеки-->
+		<script src="lib/Cesium/Cesium.js"></script>
+		<script src="lib/matreshka.min.js"></script>
+
+		<!--Используемые внутренние библиотеки-->
+		<script src="lib/helper.js"></script>
+		<script src="lib/sgdp4.js"></script>
+
+		<script src="main-matreshka.js"></script>
+	</body>
+</html>
