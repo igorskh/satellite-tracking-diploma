@@ -1,0 +1,854 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cove",
+				"coverage"
+			],
+			[
+				"pa",
+				"pathname"
+			],
+			[
+				"cover",
+				"coverEntities"
+			],
+			[
+				"semi",
+				"semiMajor"
+			],
+			[
+				"sei",
+				"semiMinor"
+			],
+			[
+				"mirro",
+				"mirrorPoints"
+			],
+			[
+				"un",
+				"undefined"
+			],
+			[
+				"poi",
+				"points"
+			],
+			[
+				"rang",
+				"rangelat"
+			],
+			[
+				"range",
+				"rangelon"
+			],
+			[
+				"xkm",
+				"xkmper"
+			],
+			[
+				"calc",
+				"calcAll"
+			],
+			[
+				"ear",
+				"satToEarthEntity"
+			],
+			[
+				"last",
+				"lastPosition"
+			],
+			[
+				"showM",
+				"showMarkerBtn"
+			],
+			[
+				"show",
+				"showSatFromEarth"
+			],
+			[
+				"to",
+				"torad"
+			],
+			[
+				"qu",
+				"quantity_new"
+			],
+			[
+				"next",
+				"nextObj"
+			],
+			[
+				"setT",
+				"setTimeBtn"
+			],
+			[
+				"ob",
+				"observer"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"UTC",
+				"UTCdatetime"
+			],
+			[
+				"tle",
+				"tleFile"
+			],
+			[
+				"cal",
+				"calcObserver"
+			],
+			[
+				"obs",
+				"obsAz"
+			],
+			[
+				"ch",
+				"choosePosMode"
+			],
+			[
+				"on",
+				"onclick	Attr"
+			],
+			[
+				"dra",
+				"draw_line24"
+			],
+			[
+				"curTi",
+				"curTimeStampUTC"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"fmod",
+				"fmod2p"
+			],
+			[
+				"pre",
+				"predict"
+			],
+			[
+				"par",
+				"parseInt"
+			],
+			[
+				"Jul",
+				"JulianDay_calc"
+			],
+			[
+				"the",
+				"theta"
+			],
+			[
+				"tle_",
+				"tle_line1"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"lin",
+				"link2"
+			],
+			[
+				"PREV",
+				"PREVIEW_TEXT"
+			],
+			[
+				"data",
+				"data-value"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"es",
+				"escartesian"
+			],
+			[
+				"xm",
+				"xmo"
+			],
+			[
+				"xno",
+				"xnodp"
+			],
+			[
+				"y",
+				"ydiff"
+			],
+			[
+				"send",
+				"sendData"
+			],
+			[
+				"sen",
+				"sendData"
+			],
+			[
+				"res",
+				"response_body"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"PRO",
+				"PROPERTY_CITY"
+			],
+			[
+				"mb_strto",
+				"mb_strtoupper"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"DET",
+				"DETAIL_PICTURE"
+			],
+			[
+				"DETA",
+				"DETAIL_PAGE_URL"
+			],
+			[
+				"strip",
+				"strip_tags"
+			],
+			[
+				"cur",
+				"curTimeStampUTC"
+			],
+			[
+				"ea",
+				"earthInit"
+			],
+			[
+				"in",
+				"interval"
+			],
+			[
+				"inter",
+				"intervalNumber"
+			],
+			[
+				"new",
+				"newIntervalNumber"
+			],
+			[
+				"inner",
+				"innerHTML"
+			],
+			[
+				"dr",
+				"draw_line24"
+			],
+			[
+				"sat",
+				"sat_name"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"html",
+				"htmlspecialchars_decode"
+			],
+			[
+				"chi",
+				"childNodes"
+			],
+			[
+				"al",
+				"album_id"
+			],
+			[
+				"alb",
+				"albums"
+			],
+			[
+				"arr",
+				"ar_res"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2213,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main-matreshka.js",
+			"settings":
+			{
+				"buffer_size": 16278,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "git co",
+		"selected_items":
+		[
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"g",
+				"Git: Init"
+			],
+			[
+				"git pu",
+				"Git: Pull Current Branch"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"git ",
+				"Git: Pull"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"git",
+				"Git: Pull"
+			],
+			[
+				"gi",
+				"Git: Init"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"clear",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/D/Projects/sattrack/index.html",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/index 4.html",
+		"/D/Projects/githello/index.html",
+		"/D/Projects/githello/demo.txt",
+		"/D/Projects/githello/git",
+		"/D/Projects/githello/githello.sublime-project",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/sshd_config",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/authorized_keys",
+		"/C/Users/Igor/Documents/Apps/Kitty/win-notebook.pub",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/auth.log",
+		"/C/Users/Igor/Documents/Apps/Kitty/kitty.exe",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/main.css",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/index 3.html",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/index 2.html",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/index.html",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/style.css",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/main-matreshka.js",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/helper.js",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/template 2.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/template.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/myscripts.js",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Диплом/test1.txt",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/component.php",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/gpredict-1.3/src/gtk-sat-map.c",
+		"/C/Users/Igor/Downloads/0.28572500 1427554092pluton/pluton/index.html",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/gpredict-1.3/src/sgpsdp/sgp_math.c",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/new.txt",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/test.txt",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/main-matreshka-050415.js",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/result_modifier.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/full.csv",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/result_modifier 2.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/script.js",
+		"/C/Users/Igor/Downloads/rv2tle/VEC.TXT",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/opinion_list.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/index2.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/sections.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/section.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/component 2.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/index.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/index 4.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/index 3.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/template 7.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/script 4.js",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/template 6.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/template 3.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/script 3.js",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/index 2.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/basket_items.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/template 4.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/.section.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/.access.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/auth.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/confirm.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/delivery.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/summary.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/basket_items 2.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/template 5.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/script 2.js",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/header.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/sgdp4.js",
+		"/C/Users/Igor/Downloads/rv2tle/orbit_gray.h",
+		"/C/Users/Igor/Downloads/rv2tle/RV2TLE.CPP",
+		"/C/Users/Igor/Downloads/rv2tle/VEC_KM.TXT",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/RV2EL.c",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/RV2EL.txt",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/на тетради.docx",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/sibnauka.2015-04-22.tar",
+		"/C/Users/Igor/AppData/Local/Sublime Text 3/Index/000101.log",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-2/main.js",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-2/helper 2.js",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-2/matreshka.html",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-2/index1.html",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-2/index.html",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-2/main-matreshka.js",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-2/main.css",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/sattrack/tle.js",
+		"/C/Users/Igor/Downloads/matreshka.min.js",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-2/sgdp4.js",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-2/tle.js",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-2/helper.js",
+		"/C/Users/Igor/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-2/intelsat.tle",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-2/SGPObs.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/SGPObs.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/Predict.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/Time.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/main.js",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/Predict-master/Predict/Math.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/intelsat.tle",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/QTH.php",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/gpredict-1.3/src/sgpsdp/sgp_time.c",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/dundee_sgp4/sgdp4.c",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/TLE ANALYSER/librairies/corps/satellite/TLE.vb",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/dundee_sgp4/twoline.txt",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/tle.js",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/SGPSDP.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/Math.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/Geodetic.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/test-001.php",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/dundee_sgp4/sgdp4h.h",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/test-002.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/generatePackage.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/test-001.tle",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/Predict-master/Predict.php",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/Predict-master/tests/test-001.php",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/Predict-master/examples/visible_passes.php",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/Predict-master/examples/update_iss_tle.php",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/Predict-master/xhprof_lib/index.php",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/Predict-master/README.md",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/dundee_sgp4/test1.c",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/dundee_sgp4/ssd_a.txt",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/dundee_sgp4/satutl.c",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/dundee_sgp4/README.txt",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/TLE ANALYSER/Functions.vb",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/403.html",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/404.html",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/satellite-js-master/Makefile",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/satellite-js-master/test/index.html",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/satellite-js-master/test/satellite.js",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/satellite-js-master/README.md",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/satellite-js-master/index.html",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/satellite-js-master/src/satellite-tail.js",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/satellite-js-master/src/satellite-head.js",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/satellite-js-master/src/initl.js",
+		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/gpredict-1.3/src/sgpsdp/sgp4sdp4.h",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/403 2.html",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/404 2.html"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\Igor\\Google Диск\\Documents\\Учеба\\Диплом\\Программы и исходники\\gpredict-1.3\\src",
+			"C:\\Users\\Igor\\Google Диск\\Documents\\Учеба\\Диплом\\gpredict-1.3\\src\\",
+			"C:\\Users\\Igor\\Google Диск\\Documents\\Учеба\\Диплом\\gpredict-1.3\\src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"draw",
+			"obsLat",
+			"price",
+			"списка",
+			"lastPosition",
+			"posMarker",
+			"sat_name",
+			"lastTimeStamp",
+			"lastTime",
+			"lastPosition",
+			"this.satLat",
+			"this.satName",
+			"mapClickHandler",
+			"for",
+			"each",
+			"cartesian2g",
+			"footprint",
+			"arccos",
+			"mirror_lon",
+			"footprint",
+			"cartesian2geodetic",
+			"satPos",
+			"consol",
+			"calc",
+			"lastTimeStamp",
+			"reset",
+			"выбер",
+			"showSat",
+			"arccos",
+			"lastTimeStamp",
+			"curDate",
+			"UTCdatetime",
+			"timeP",
+			"interv",
+			"interval",
+			"document.getElementById(\"start\").innerHTML ",
+			"timerFunc",
+			"active",
+			"AABE0618-1171-4E3C-BF72-FC8F105FA17C",
+			"5F6D29CE-B376-4B65-8C19-C98E3D85D08D",
+			"AABE0618-1171-4E3C-BF72-FC8F105FA17C",
+			"MAIL",
+			"email",
+			"Уьфшд",
+			"PRODUCT_ID",
+			"$arResult['FILTER_STICKERS']",
+			"catalog",
+			"animate",
+			"choosePosWindow",
+			"console",
+			"cons",
+			"TLEParse",
+			"fmod",
+			"modf",
+			"Predict_Time",
+			"jul_epoch",
+			"jul_epoch'",
+			"jul_epoch",
+			"JD1900",
+			"JulianDay_calc",
+			"predict_calc",
+			"tsince",
+			"dinit",
+			"dscom",
+			"zmol",
+			"backgrou",
+			"AABE0618-1171-4E3C-BF72-FC8F105FA17C",
+			"5F6D29CE-B376-4B65-8C19-C98E3D85D08D",
+			"D994C480-908F-4841-8C6E-E9CD4848BAE0",
+			"10B4A30C-C403-4177-97C8-F500403B4A5B",
+			"<!-- Yandex.Metrika counter -->\n        <script type=\"text/javascript\">\n            (function (d, w, c) {\n                (w[c] = w[c] || []).push(function() {\n                    try {\n                        w.yaCounter29683680 = new Ya.Metrika({\n                            id:29683680,\n                            clickmap:true,\n                            trackLinks:true,\n                            accurateTrackBounce:true,\n                            webvisor:true\n                        });\n                    } catch(e) { }\n                });\n\n                var n = d.getElementsByTagName(\"script\")[0],\n                    s = d.createElement(\"script\"),\n                    f = function () { n.parentNode.insertBefore(s, n); };\n                s.type = \"text/javascript\";\n                s.async = true;\n                s.src = (d.location.protocol == \"https:\" ? \"https:\" : \"http:\") + \"//mc.yandex.ru/metrika/watch.js\";\n\n                if (w.opera == \"[object Opera]\") {\n                    d.addEventListener(\"DOMContentLoaded\", f, false);\n                } else { f(); }\n            })(document, window, \"yandex_metrika_callbacks\");\n        </script>\n        <noscript><div><img src=\"//mc.yandex.ru/watch/29683680\" style=\"position:absolute; left:-9999px;\" alt=\"\" /></div></noscript>\n        <!-- /Yandex.Metrika counter -->        ",
+			">\n",
+			"check_links",
+			"step",
+			"a ",
+			"step",
+			"valid_option_test",
+			"SV_Validator",
+			"valid_option_test",
+			"testingform",
+			"link",
+			"testingform",
+			"testi",
+			"section section__rezultbox",
+			"opinions",
+			"catalog",
+			"$arResult[\"Post\"]",
+			"br",
+			"SUM",
+			"footpri",
+			"footprint",
+			"sortSelect",
+			"sort",
+			"clearMap",
+			"__sr__",
+			"observer",
+			"obser",
+			"observer",
+			"observerAzt",
+			"__sr__",
+			"AcTan",
+			"atan",
+			"AcTan",
+			"AcTan ",
+			"fabs(",
+			"fabs ",
+			"#define ",
+			"zcosgs",
+			"zcosgs ",
+			"fmod2p",
+			"xnodp",
+			"sat->dps.",
+			"sat->deep_arg.",
+			"thdt",
+			"sat->tle.",
+			"sat->dps.",
+			"sat->deep_arg.",
+			"sat->dps.",
+			"sat->deep_arg.",
+			"sat->dps.",
+			"sat->tle.",
+			"sat->deep_arg.",
+			"sat->dps.",
+			"sat->deep_arg.",
+			"sat->dps.",
+			"sat->deep_arg.",
+			"omega",
+			"Magnitude"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Math.abs(",
+			"var ",
+			"this."
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2213,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48,
+								48
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main-matreshka.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4965,
+								4965
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2808.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "sattrack.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
