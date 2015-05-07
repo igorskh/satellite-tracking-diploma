@@ -501,14 +501,12 @@ app.earth.clock.onTick.addEventListener(function(clock) {
 		app.earth.camera.rotateRight()
 	}
 });	
-
 document.addEventListener('keydown', function(e) {
 	var flagName = getFlagForKeyCode(e.keyCode)
 	if (typeof flagName !== 'undefined') {
 		app.flags[flagName] = true
 	}
 }, false)
-
 document.addEventListener('keyup', function(e) {
 	var flagName = getFlagForKeyCode(e.keyCode)
 	if (typeof flagName !== 'undefined') {
