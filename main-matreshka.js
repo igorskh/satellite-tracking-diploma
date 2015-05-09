@@ -482,6 +482,7 @@ app.earth.clock.onTick.addEventListener(function(clock) {
 	// Change movement speed based on the distance of the camera to the surface of the ellipsoid.
 	var cameraHeight = app.earth.scene.globe.ellipsoid.cartesianToCartographic(app.earth.camera.position).height
 	var moveRate = cameraHeight / 100.0
+	var lookRate = Math.PI / 90
 
 	if (app.flags.moveForward) {
 		app.earth.camera.moveForward(moveRate)
@@ -502,10 +503,10 @@ app.earth.clock.onTick.addEventListener(function(clock) {
 		app.earth.camera.moveRight(moveRate)
 	}
 	if (app.flags.rotateLeft) {
-		app.earth.camera.lookLeft(moveRate)
+		app.earth.camera.lookLeft(lookRate)
 	}
 	if (app.flags.rotateRight) {
-		app.earth.camera.lookRight()
+		app.earth.camera.lookRight(lookRate)
 	}
 	if (app.flags.rotateUp) {
 		app.earth.camera.lookUp()
