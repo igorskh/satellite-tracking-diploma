@@ -161,7 +161,14 @@ var Application = Class({
 		}
 	},
 	initEarth: function() {
-		this.earth 			= new Cesium.Viewer('cesiumContainer')
+		this.earth 			= new Cesium.Viewer('cesiumContainer', {
+		//Use OpenStreetMaps
+			imageryProvider : new Cesium.OpenStreetMapImageryProvider({
+				url : "lib/Cesium/Assets/Textures/NaturalEarthII/tilemapresource.xml"
+			}),
+		})
+
+
 		this.earthInitFlag 	= true
 
 		this.earth.canvas.setAttribute('tabindex', '0')

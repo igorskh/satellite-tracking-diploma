@@ -312,26 +312,10 @@
 			}
 		},
 		{
-			"file": "/C/Users/Igor/AppData/Local/Temp/fz3temp-1/component.php",
-			"settings":
-			{
-				"buffer_size": 13843,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/Users/Igor/AppData/Local/Temp/fz3temp-1/template.php",
-			"settings":
-			{
-				"buffer_size": 502,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "main-matreshka.js",
 			"settings":
 			{
-				"buffer_size": 16278,
+				"buffer_size": 16454,
 				"line_ending": "Windows"
 			}
 		}
@@ -418,10 +402,12 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Projects/sattrack"
+		"/Z/home/localhost/www/sattrack"
 	],
 	"file_history":
 	[
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/component.php",
+		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/template.php",
 		"/D/Projects/githello/index.html",
 		"/D/Projects/sattrack/index.html",
 		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/index 4.html",
@@ -441,10 +427,8 @@
 		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/main-matreshka.js",
 		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/helper.js",
 		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/template 2.php",
-		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/template.php",
 		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/myscripts.js",
 		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Диплом/test1.txt",
-		"/C/Users/Igor/AppData/Local/Temp/fz3temp-1/component.php",
 		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/gpredict-1.3/src/gtk-sat-map.c",
 		"/C/Users/Igor/Downloads/0.28572500 1427554092pluton/pluton/index.html",
 		"/C/Users/Igor/Google Диск/Documents/Учеба/Диплом/Программы и исходники/gpredict-1.3/src/sgpsdp/sgp_math.c",
@@ -718,7 +702,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -734,8 +718,8 @@
 						"selection":
 						[
 							[
-								519,
-								519
+								764,
+								572
 							]
 						],
 						"settings":
@@ -747,80 +731,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/Users/Igor/AppData/Local/Temp/fz3temp-1/component.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13843,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "/C/Users/Igor/AppData/Local/Temp/fz3temp-1/template.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 502,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
+					"buffer": 1,
 					"file": "main-matreshka.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16278,
+						"buffer_size": 16454,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4965,
-								4965
+								5099,
+								5099
 							]
 						],
 						"settings":
@@ -829,10 +757,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2808.0,
+						"translation.y": 2963.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
