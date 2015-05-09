@@ -502,7 +502,7 @@ app.earth.clock.onTick.addEventListener(function(clock) {
 		app.earth.camera.moveRight(moveRate)
 	}
 	if (app.flags.rotateLeft) {
-		app.earth.camera.lookLeft()
+		app.earth.camera.lookLeft(moveRate)
 	}
 	if (app.flags.rotateRight) {
 		app.earth.camera.lookRight()
