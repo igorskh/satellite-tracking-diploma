@@ -502,10 +502,16 @@ app.earth.clock.onTick.addEventListener(function(clock) {
 		app.earth.camera.moveRight(moveRate)
 	}
 	if (app.flags.rotateLeft) {
-		app.earth.camera.lookRight()
+		app.earth.camera.lookLeft()
 	}
 	if (app.flags.rotateRight) {
+		app.earth.camera.lookRight()
+	}
+	if (app.flags.rotateUp) {
 		app.earth.camera.lookUp()
+	}
+	if (app.flags.rotateDown) {
+		app.earth.camera.lookDown()
 	}
 });	
 document.addEventListener('keydown', function(e) {
