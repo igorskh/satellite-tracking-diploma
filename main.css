@@ -13,6 +13,7 @@ html, body, #map-canvas {
 	overflow: hidden;
 }
 
+
 #sat-table a {
 	color:white;
 }
@@ -31,13 +32,15 @@ html, body, #map-canvas {
 	font-family: sans-serif;
 }
 
-#controlTitle
-{
+#controlTitle {
 	cursor: pointer;
 }
 
-.cesium-viewer-animationContainer, .cesium-viewer-timelineContainer
-{
+#animationTitle {
+	cursor: pointer;
+}
+
+.cesium-viewer-animationContainer, .cesium-viewer-timelineContainer {
 	/*display: none;*/
 }
 

@@ -16,6 +16,7 @@ var Application = Class({
 		this.bindNode( 'chooseMarkerBtn', '#chooseMarker' )
 		this.bindNode( 'choosePosWindowBtn', '#choosePosWindowBtn' )
 		this.bindNode( 'controlTitleBtn', '#controlTitle' )
+		this.bindNode( 'animationTitleBtn', '#animationTitle' )
 		this.bindNode( 'showSatBtn', '#showSat' )
 		this.bindNode( 'showMarkerBtn', '#showMarker' )
 		
@@ -45,6 +46,14 @@ var Application = Class({
 			windowMode   		= document.getElementById("controls").style.display
 			windowMode 			= windowMode=='none'?'block':'none'
 			document.getElementById("controls").style.display = windowMode			
+		})
+		//Скрытие раскрытие панели управления
+		this.on( 'click::animationTitleBtn', function() {
+			windowMode   		= document.getElementsByClassName('cesium-viewer-timelineContainer')[0].style.display
+			windowMode 			= windowMode=='none'?'block':'none'
+
+			document.getElementsByClassName('cesium-viewer-timelineContainer')[0].style.display = windowMode
+			document.getElementsByClassName('cesium-viewer-animationContainer')[0].style.display = windowMode		
 		})
 		//Отображение спутника с точки на Земле
 		this.on( 'click::showSatBtn', function() {
@@ -188,6 +197,7 @@ var Application = Class({
 			rotateLeft : false,
 			rotateRight : false
 		}
+
 		//this.earth.scene.globe.enableLighting = true
 	},
 	readTLE: function(file)	{
@@ -469,6 +479,18 @@ var Application = Class({
 var app = new Application()
 
 app.earth.clock.onTick.addEventListener(function(clock) {
+	if (typeof app.creaditInit === 'undefined') {
+		tmp = app.earth.cesiumWidget.creditContainer.innerHTML
+		if (app.earth.cesiumWidget.creditContainer.textContent.length > 50) {
+			console.log(tmp.length+' '+tmp)
+			credit = '<span class="cesium-credit-textContainer"><span class="cesium-credit-text"> © 2015 ЗОНД-ХОЛДИНГ</span><span class="cesium-credit-delimiter"> • </span></span>'+tmp
+
+			app.earth.cesiumWidget.creditContainer.innerHTML = credit
+
+			app.creaditInit = true			
+		}
+
+	}
 	if (app.earth.clock.shouldAnimate) {
 		if (app.tick>=10)
 		{
