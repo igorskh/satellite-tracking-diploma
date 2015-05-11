@@ -315,8 +315,16 @@
 			"file": "main-matreshka.js",
 			"settings":
 			{
-				"buffer_size": 16454,
+				"buffer_size": 16615,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "lib/helper.js",
+			"settings":
+			{
+				"buffer_size": 22197,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -402,7 +410,9 @@
 	},
 	"expanded_folders":
 	[
-		"/Z/home/localhost/www/sattrack"
+		"/Users/igorkim/projects/sattrack",
+		"/Users/igorkim/projects/sattrack/lib",
+		"/Users/igorkim/projects/sattrack/tle"
 	],
 	"file_history":
 	[
@@ -728,10 +738,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 201.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -740,15 +750,44 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16454,
+						"buffer_size": 16615,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5099,
-								5099
+								16131,
+								16131
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 2.0,
+						"translation.y": 6989.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "lib/helper.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6046,
+								6046
 							]
 						],
 						"settings":
@@ -757,10 +796,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2963.0,
+						"translation.y": 9646.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

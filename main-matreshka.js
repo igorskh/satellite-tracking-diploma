@@ -84,22 +84,23 @@ var Application = Class({
 		if (typeof this.lastColor === 'undefined') {
 			this.lastColor = 0
 		}
+		var alpha = 0.05
 
 		switch (this.lastColor) {
 			case 0:
-				color = Cesium.Color.GREEN.withAlpha(0.2)
+				color = Cesium.Color.GREEN.withAlpha(alpha)
 				break
 			case 1:
-				color = Cesium.Color.BLUE.withAlpha(0.2)
+				color = Cesium.Color.BLUE.withAlpha(alpha)
 				break
 			case 2:
-				color = Cesium.Color.YELLOW.withAlpha(0.2)
+				color = Cesium.Color.YELLOW.withAlpha(alpha)
 				break
 			case 3:
-				color = Cesium.Color.MEDIUMVIOLETRED.withAlpha(0.2)
+				color = Cesium.Color.MEDIUMVIOLETRED.withAlpha(alpha)
 				break
 			default:
-				color = Cesium.Color.GREEN.withAlpha(0.2)
+				color = Cesium.Color.GREEN.withAlpha(alpha)
 				this.lastColor = 0
 		}
 		this.lastColor++
@@ -411,9 +412,7 @@ var Application = Class({
 			ellipse : {
 				semiMinorAxis : positionArr.coverage.semiMinor/2,
 				semiMajorAxis : positionArr.coverage.semiMajor/2,
-				material : new Cesium.GridMaterialProperty({
-					color : this.selSats[satName].useColor,
-				}),//this.selSats[satName].useColor,
+				material : this.selSats[satName].useColor,
 				outline : true,
 				outlineColor : Cesium.Color.BLACK,
 			}
@@ -432,6 +431,7 @@ var Application = Class({
 		} else {
 			earthPos 	= Cesium.Cartesian3.fromDegrees(this.observer.lng, this.observer.lat, 0)
 		}
+		//satPosition	= Cesium.Cartesian3.fromDegrees(this.satPos[this.satName].lng, this.satPos[this.satName].lat, this.satPos[this.satName].alt*1000)
 
 		this.earth.camera.setView({
 			position : earthPos,
@@ -439,8 +439,7 @@ var Application = Class({
 			pitch : Cesium.Math.toRadians(0),
 			roll : 0.0
 		})
-		satPosition	= Cesium.Cartesian3.fromDegrees(this.satPos[this.satName].lng, this.satPos[this.satName].lat, this.satPos[this.satName].alt*1000)
-		this.earth.camera.lookAt(satPosition)		
+		//this.earth.camera.lookAt(satPosition)		
 	},
 	showEarthFromSat: function() {
 		if (typeof this.satPos[this.satName] == 'undefined' ||
@@ -463,7 +462,7 @@ var Application = Class({
 			pitch : Cesium.Math.toRadians(0),
 			roll : 0.0
 		})
-		this.earth.camera.lookAt(earthPos)		
+		//this.earth.camera.lookAt(earthPos)		
 	}
 })
 
