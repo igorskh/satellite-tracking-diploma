@@ -374,10 +374,8 @@ var Application = Class({
 		if (typeof this.selSats[satName].useColor === 'undefined') {
 			this.selSats[satName].useColor = this.getColor()
 		}
-		//this.earth.entities.remove(this.bodyEntities[satName])
 		//Compute the entity position property.
 		var positionArr = this.calc_orbit(satName)
-
 		//Положение модели спутника
 		var heading = Cesium.Math.toRadians(0)
 		var pitch = Cesium.Math.toRadians(0)
@@ -489,11 +487,9 @@ app.earth.clock.onTick.addEventListener(function(clock) {
 
 			app.creaditInit = true			
 		}
-
 	}
 	if (app.earth.clock.shouldAnimate) {
-		if (app.tick>=10)
-		{
+		if (app.tick>=10) {
 			app.tick = 0
 			app.calcAll()			
 		} else {
