@@ -356,8 +356,8 @@ var Application = Class({
 				property.addSample(time, position)
 				surfaceProperty.addSample(time, surfacePosition)
 			}
-			return {sat: property, surface: surfaceProperty, coverage: coverage}
 			//polyline.positions 		= new Cesium.ConstantProperty(coordinatesArr)
+			return {sat: property, surface: surfaceProperty, coverage: coverage}
 		}
 	},
 	calc24: function(satName) {
@@ -405,7 +405,7 @@ var Application = Class({
 			//Load the Cesium plane model to represent the entity
 			model : {
 				uri : 'lib/sat.gltf',
-				minimumPixelSize : 64
+				minimumPixelSize : 32
 			},
 		})
 
