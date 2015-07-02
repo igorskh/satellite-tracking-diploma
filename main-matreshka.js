@@ -198,7 +198,7 @@ var Application = Class({
 			rotateRight : false
 		}
 
-		this.earth.dataSources.add(Cesium.KmlDataSource.load('/lib/russia.kml'));
+		this.earth.dataSources.add(Cesium.KmlDataSource.load('lib/regions2010_wgs.kmz'));
 
 		//this.earth.scene.globe.enableLighting = true
 	},
