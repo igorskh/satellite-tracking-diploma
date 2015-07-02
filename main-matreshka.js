@@ -198,6 +198,8 @@ var Application = Class({
 			rotateRight : false
 		}
 
+		this.earth.dataSources.add(Cesium.KmlDataSource.load('/lib/russia.kml'));
+
 		//this.earth.scene.globe.enableLighting = true
 	},
 	readTLE: function(file)	{
