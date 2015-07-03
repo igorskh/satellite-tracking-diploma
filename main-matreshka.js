@@ -342,11 +342,14 @@ var Application = Class({
 		this.initEarth()
 	},
 	calc_orbit: function(satName)	{
+		var step = 3600*100
+		var startEndCoeff = 86400*1000
+
 		var curTimeStamp 	= curTimeStampUTC()
 		var property 		= new Cesium.SampledPositionProperty()
 		var surfaceProperty = new Cesium.SampledPositionProperty()
 		if (this.earthInitFlag) {
-			for (ts = curTimeStamp-86400*1000; ts <= curTimeStamp+86400*1000; ts += 3600*1000) {
+			for (ts = curTimeStamp-startEndCoeff; ts <= curTimeStamp+startEndCoeff; ts += step) {
 				var time 			= Cesium.JulianDate.fromDate(dateFromTimestamp(ts))
 				var coors 			= this.calc(satName, ts)
 				var position 		= Cesium.Cartesian3.fromDegrees(coors.lng, coors.lat, coors.alt*1000)
@@ -407,8 +410,19 @@ var Application = Class({
 			//Load the Cesium plane model to represent the entity
 			model : {
 				uri : 'lib/sat.gltf',
-				minimumPixelSize : 32
+				minimumPixelSize : 64
 			},
+			/*
+		    //Show the path as a pink line sampled in 1 second increments.
+		    path : {
+		        resolution : 1,
+		        material : new Cesium.PolylineGlowMaterialProperty({
+		            glowPower : 0.1,
+		            color : Cesium.Color.YELLOW
+		        }),
+		        width : 10
+		    },
+		    */
 		})
 
 		this.coverEntities[satName] = this.earth.entities.add({
