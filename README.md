@@ -7,5 +7,5 @@ Satellite tracking system. Bachelor's diploma thesis.
 * Calculation by SGP4/SDP4 Propagation models
 
 ### Try ###
-* Develop branch: http://sandbox.roundeasy.ru/sattrack-develop/
-* Master branch: http://sandbox.roundeasy.ru/sattrack/
+* Develop branch: https://sattrack-develop.netlify.com
+* Master branch: https://sattrack.netlify.com
